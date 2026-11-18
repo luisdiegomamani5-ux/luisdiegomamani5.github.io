@@ -1,0 +1,23 @@
+TURBO RACING - PROYECTO CON AUTOS REALISTAS
+
+CONTENIDO
+- index.html: estructura del juego.
+- estilos.css: diseño adaptable a celular y PC.
+- juego.js: controles, movimiento, obstáculos y puntuación.
+- imagenes/: cuatro automóviles con apariencia realista (rojo, azul, blanco y amarillo).
+
+PARA JUGAR
+1. Extrae el archivo ZIP.
+2. Mantén la carpeta imagenes junto a los archivos HTML, CSS y JavaScript.
+3. Abre index.html con Chrome, Edge o Firefox.
+
+CONTROLES EN PC
+- Flecha izquierda / A: mover a la izquierda.
+- Flecha derecha / D: mover a la derecha.
+- Flecha arriba / W: acelerar.
+- Flecha abajo / S: frenar.
+
+EN CELULAR
+Usa los botones táctiles de la pantalla.
+
+No necesita XAMPP ni conexión a Internet.

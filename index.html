@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turbo Racing</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="contenedor">
+  <header>
+    <h1>Que no te atrape tu EX</h1>
+    <p>¡Demuestra tu habilidad como un TIGRE!</p>
+  </header>
+  <div class="marcador">
+    <div>PUNTOS: <span id="puntos">0</span></div>
+    <div>VIDAS: <span id="vidas">1</span> ❤️</div>
+    <div>VELOCIDAD: <span id="velocidad">4</span></div>
+  </div>
+  <div class="zona-juego">
+    <canvas id="juego"></canvas>
+    <div id="pantallaInicio" class="pantalla">
+      <h2>🏁 Que no te atrape</h2>
+      <p>¡Esquiva a tus EXS y consigue puntos!</p>
+      <button id="iniciar">INICIAR JUEGO</button>
+    </div>
+    <div id="pantallaFinal" class="pantalla oculto">
+      <h2>¡Eres un Pisado!</h2>
+      <p>Tu puntuación fue:</p>
+      <h2 id="resultado">0</h2>
+      <button id="reiniciar">VOLVER A JUGAR</button>
+    </div>
+  </div>
+  <div class="controles">
+    <div class="grupo">
+      <button id="izquierda" class="control" aria-label="Mover a la izquierda">⬅️</button>
+      <button id="derecha" class="control" aria-label="Mover a la derecha">➡️</button>
+    </div>
+    <div class="grupo">
+      <button id="frenar" class="control freno">FRENAR</button>
+      <button id="acelerar" class="control acelerar">ACELERAR</button>
+    </div>
+  </div>
+  <p class="instrucciones">PC: usa las flechas del teclado o A/D/W/S.<br>Celular: utiliza los botones de la pantalla.</p>
+</div>
+<script src="juego.js"></script>
+</body>
+</html>
